@@ -1,0 +1,85 @@
+/* Navbar.module.css */
+.navBar {
+  background: rgba(251, 136, 0, 0.6);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(241, 156, 65, 0.3);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  --bs-navbar-brand-padding-y: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.containerNav {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.navUl {
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navItem {
+  text-align: center;
+  position: relative;
+}
+
+.navLink {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.navLink:hover {
+  color: orange;
+}
+
+.active .navLink {
+  color: orange;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbarBrand {
+  font-family: "Margaret", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .navbarNav {
+    flex-direction: row;
+  }
+
+  .navItem {
+    width: auto;
+  }
+}

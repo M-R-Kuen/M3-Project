@@ -1,0 +1,76 @@
+.formContainer1 {
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20%;
+  height: 40vh;
+  width: 70vh;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.formContainer1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  border-radius: 16px;
+  background: rgba(255, 191, 29, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 191, 29, 0.31);
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.formControl {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.btnPrimary {
+  background: black;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(241, 156, 65, 0.3);
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.btnPrimary:hover {
+  background-color: #0056b3;
+}
+
+.title {
+  font-family: "bebas neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.text-danger {
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 5px;
+  font-weight: 200;
+  margin: 0;
+  text-transform: uppercase;
+  color: red;
+}
